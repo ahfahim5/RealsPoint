@@ -369,7 +369,7 @@
         top: 90px;
         right: 0;
         width: 100%;
-        background-color: rgba(4, 109, 26, 0.781);
+        background-color: rgba(4, 109, 27, 0.852);
         display: none;
         flex-direction: column;
         padding: 50px 0 0;
@@ -389,7 +389,7 @@
         padding: 10px;
         width: 100%;
         text-align: center;
-        color: white;
+        color: black;
         font-size: 16px;
     }
 
@@ -425,16 +425,19 @@
     .input-group{
         background: rgb(245, 245, 245, 0.3);
         padding: 10px;
-        border-radius: 6px;
         flex-direction: column;
     }
     .form-select{
-        width: 250px;
+        width: 100% !important;
     }
+    .form-control{
+        border-radius: none;
+    }
+
 
     .banner-1-items {
         padding: 20px;
-        padding-top: 140px;
+        padding-top: 90px;
     }
     .card {
         width: 100%;
