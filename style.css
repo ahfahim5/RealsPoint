@@ -1,0 +1,48 @@
+
+*{
+  font-family: "Maven Pro", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Foorter  */
+.footer-bg{
+    margin-top: 50px;
+    padding-bottom: 60px;
+    background: #f3f3f3;
+    padding: 50px;
+	border-top: 1px solid #dedede;
+}
+.footer-items-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-items-title {
+    margin-bottom: 10px;
+    color: #33B836;
+
+}
+
+.footer-items ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+.footer-items ul li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+}
+
+.footer-items ul li i {
+    margin-right: 10px;
+}
+.footer-social-icon ul li i{
+    color: #33B836;
+    padding: 10px;
+}
