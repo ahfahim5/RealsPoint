@@ -59,45 +59,100 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-              <div class="logo">
-                <img id="logo" src="./img/nav-logo.png" alt="Logo" />
-              </div>
-            </div>  
-            <div class="col-6 d-flex justify-content-end ham-icon">
-              <div>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <div class="logo">
+              <img id="logo" src="./img/nav-logo.png" alt="Logo" />
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-end ham-icon">
+            <div>
+              <input type="checkbox" id="nav-toggle" class="nav-toggle" />
 
-                <label for="nav-toggle" class="nav-toggle-label">
-                  <span class="hamburger-icon"></span>
-                </label>
-  
-                <div class="nav-links">
-                  <ul id="nav-items">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">Properties</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li>
-                      <a href="#">Pages<i class="fa-solid fa-arrow-down"></i></a>
-                      <ul>
-                        <li class="pages-on-hover"><a href="#">About</a></li>
-                        <li class="pages-on-hover"><a href="#">Location</a></li>
-                        <li class="pages-on-hover"><a href="#">FAQ</a></li>
-                        <li class="pages-on-hover"><a href="#">Category</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-                </div>
+              <label for="nav-toggle" class="nav-toggle-label">
+                <span class="hamburger-icon"></span>
+              </label>
+
+              <div class="nav-links">
+                <ul id="nav-items">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="#">Properties</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li>
+                    <a href="#">Pages<i class="fa-solid fa-arrow-down"></i></a>
+                    <ul>
+                      <li class="pages-on-hover"><a href="#">About</a></li>
+                      <li class="pages-on-hover"><a href="#">Location</a></li>
+                      <li class="pages-on-hover"><a href="#">FAQ</a></li>
+                      <li class="pages-on-hover"><a href="#">Category</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </section>
-
-
     </div>
   </header>
+  <section class="search-section img-fluid" style="background-image: url('./img/banner-1.jpg');">
+    <div>
+      <div class="section-bg">
+        <div class="container">
+          <div class="row text-center banner-1-items ">
+            <div class="col-12 col-md-6 m-auto text-center">
+              <h1>Discover Your New Home</h1>
+              <p>You can get your desired awesome properties, homes, condos etc. here by name, category or location.</p>
+            </div>
+            <div>
+              <form action="#" method="GET">
+                <div class="col-lg-12 m-auto">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Find anything..." name="text">
+  
+                    <select name="location[]" class="form-select">
+                      <option value="">Select Location</option>
+                      <option value="2">Chicago, USA</option>
+                      <option value="3">London, UK</option>
+                      <option value="4">New York, USA</option>
+                      <option value="1">Paris, France</option>
+                      <option value="7">Sydney, Australia</option>
+                      <option value="5">Tokyo, Japan</option>
+                    </select>
+  
+                    <select name="category[]" class="form-select">
+                      <option value="">Select Category</option>
+                      <option value="1">Apartment</option>
+                      <option value="8">Cabin</option>
+                      <option value="2">Condo</option>
+                      <option value="3">Family House</option>
+                      <option value="6">Modern Villa</option>
+                      <option value="7">Tiny House</option>
+                    </select>
+  
+                    <select name="property_type" class="form-select">
+                      <option value="">Select Type</option>
+                      <option value="sale">For Sale</option>
+                      <option value="rent">For Rent</option>
+                    </select>
+  
+                    <button type="submit" class="btn btn-primary">
+                      <i class="fa fa-search"></i> Search
+                    </button>
+  
+                  </div>
+                </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  </div>
+
 
   <!-- Footer -->
   <footer>

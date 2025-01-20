@@ -91,6 +91,7 @@
     background-color: #fff; 
     border: 1px solid #ddd; 
     padding: 10px;
+    z-index: 1;
 }
   .nav-links ul ul li{
     text-align: center;
@@ -135,6 +136,22 @@
 
 .top-bar-selector option {
     color: #000 !important;
+}
+/* Search-section */
+.search-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.section-bg{
+    background-color: #00000067;
+    height: 500px;
+}
+.banner-1-items{
+    padding: 150px;
+}
+.banner-1-items h1 , p{
+    color: #ffffff;
 }
 
 /* Foorter  */
@@ -221,6 +238,7 @@
         flex-direction: column;
         padding: 50px 0 0;
         align-items: center;
+        z-index: 1;
     }
 
     .nav-links ul {
@@ -266,5 +284,9 @@
 
     .nav-toggle-label {
         display: flex;
+    }
+    .banner-1-items{
+        padding: 20px;
+        padding-top: 140px;
     }
 }
