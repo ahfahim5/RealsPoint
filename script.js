@@ -4,10 +4,9 @@ const slider = document.querySelector('.slider-cards');
 const cards = document.querySelectorAll('.card-2');
 let currentIndex = 0;
 
-// Function to update the slider position
 function updateSliderPosition() {
-  slider.style.transition = 'transform 0.3s ease-in-out'; // Smooth transition
-  slider.style.transform = `translateX(-${currentIndex * (cards[0].offsetWidth + 10)}px)`; // Move based on current index
+  slider.style.transition = 'transform 0.3s ease-in-out';
+  slider.style.transform = `translateX(-${currentIndex * (cards[0].offsetWidth + 10)}px)`;
 }
 
 prevButton.addEventListener('click', () => {
@@ -23,7 +22,7 @@ nextButton.addEventListener('click', () => {
 setInterval(() => {
   currentIndex = (currentIndex === cards.length - 1) ? 0 : currentIndex + 1;
   updateSliderPosition();
-}, 10000); 
+}, 3000); 
 
 slider.addEventListener('transitionend', () => {
   if (currentIndex === cards.length) {
