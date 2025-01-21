@@ -288,6 +288,87 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
   
+/* FP-Section   */
+.fa-card-texts{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.item-img {
+    position: relative;
+}
+
+.item-img img {
+    width: 416px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.rent-btn{
+	background: #f6e6ca;
+    color: #b4911c;
+    padding: 2px 8px;
+    border: 1px solid #c4a84b;
+    display: inline;
+    border-radius: 6px;
+}
+.fp-star-icon{
+    color: #fbc715;
+}
+.fp-card-location{
+    color: #4CAF50;
+    font-size: 22px;
+}
+.pricing{
+    gap: 150px;
+}
+.pricing{
+    align-items: center;
+    padding: 10px;
+}
+.pricing-hr{
+    width:100%;
+    background-color: #202020;
+	border-bottom: 1px dashed #c7c7c7;
+    text-align: center;
+}
+.type-tag {
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: -45px;
+    margin-left: 10px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+.heart-icon {
+    position: absolute;
+    margin-top: -49px;
+    margin-left: 350px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.fa-end-icons{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    color: #236884;
+}
+.featured-text {
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: -249px;
+    margin-left: 283px;
+    padding: 4px 49px;
+    font-size: 0.875rem;
+    rotate: 45deg;
+    font-size: 18px;
+}
+
 
 /* Foorter  */
 .footer-bg {
