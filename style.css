@@ -272,9 +272,10 @@
     margin-top: -35px;
 }
 
-/* FP-Section   */
+/* FP-section */
 .fa-card-texts {
     background-color: #f2f2f2;
+    width: 416px;
     padding: 20px;
     border-radius: 0 0 10px 10px;
 }
@@ -295,6 +296,15 @@
     color: #b4911c;
     padding: 2px 8px;
     border: 1px solid #c4a84b;
+    display: inline;
+    border-radius: 6px;
+}
+
+.sell-btn {
+    background: #d3dcfb;
+    color: #6476d3;
+    padding: 2px 8px;
+    border: 1px solid #8f9ff5;
     display: inline;
     border-radius: 6px;
 }
@@ -353,7 +363,7 @@
 }
 
 .featured-text {
-    position: absolute;
+    /* position: absolute;
     background-color: #4CAF50;
     color: white;
     margin-top: -249px;
@@ -362,8 +372,36 @@
     font-size: 0.875rem;
     rotate: 45deg;
     font-size: 18px;
+ */
+    display: none;
 }
 
+.fp-slider-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.card-wrapper2 {
+    max-width: 1920px;
+    overflow: hidden;
+}
+
+.card-wrapper2 .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #5372F0;
+}
+
+.card-wrapper2 .swiper-pagination-bullet-active {
+    opacity: 1;
+}
 
 /* Foorter  */
 .footer-bg {
@@ -548,6 +586,7 @@
         overflow: hidden;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
+
     .fa-card-texts {
         background-color: #f2f2f2;
         width: 416px;
