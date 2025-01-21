@@ -219,7 +219,7 @@
     position: relative;
     width: 200px;
     height: 150px;
-    margin: 10px;
+    margin: 60px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -277,7 +277,7 @@
   }
   
 .prev-btn {
-    left: 22px;
+    left: 1px;
 }
   
 .next-btn {
@@ -452,4 +452,15 @@
     .card p {
         font-size: 0.9rem;
     }
+    .card-2 {
+        position: relative;
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
 }
