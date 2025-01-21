@@ -93,7 +93,6 @@
 }
 
 /* PAGES */
-/* Hide the sub-menu by default */
 .nav-links ul ul {
     display: none;
     position: absolute;
@@ -363,16 +362,6 @@
 }
 
 .featured-text {
-    /* position: absolute;
-    background-color: #4CAF50;
-    color: white;
-    margin-top: -249px;
-    margin-left: 283px;
-    padding: 4px 49px;
-    font-size: 0.875rem;
-    rotate: 45deg;
-    font-size: 18px;
- */
     display: none;
 }
 
@@ -402,6 +391,7 @@
 .card-wrapper2 .swiper-pagination-bullet-active {
     opacity: 1;
 }
+
 
 /* Foorter  */
 .footer-bg {
@@ -577,7 +567,7 @@
 
     .card-2 {
         position: relative;
-        width: 200px;
+        width: 280px;
         height: 150px;
         margin: 20px;
         background-size: cover;
@@ -586,12 +576,63 @@
         overflow: hidden;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
-
+ 
+    .card-wrapper {
+        margin: 0 10px 25px;
+    }
+    .card-wrapper .swiper-slide-button {
+        display: none;
+    }
     .fa-card-texts {
         background-color: #f2f2f2;
-        width: 416px;
+        width: 300px;
         padding: 20px;
+        margin: 0 25px 0 25px;
         border-radius: 0 0 10px 10px;
     }
-
+    .item-img img {
+        width: 300px;
+        height: 100%;
+        margin: 0 25px 0 25px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    .heart-icon {
+        position: absolute;
+        margin-top: -49px;
+        margin-left: 250px;
+        color: white;
+        padding: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .rent-btn {
+        background: #f6e6ca;
+        color: #b4911c;
+        padding: 2px 5px;
+        border: 1px solid #c4a84b;
+        display: inline;
+        border-radius: 6px;
+    }
+    .sell-btn {
+        background: #d3dcfb;
+        color: #6476d3;
+        padding: 2px 5px;
+        border: 1px solid #8f9ff5;
+        display: inline;
+        border-radius: 6px;
+    }
+    .type-tag {
+        position: absolute;
+        background-color: #4CAF50;
+        color: white;
+        margin-top: -45px;
+        margin-left: 35px;
+        padding: 4px 12px;
+        border-radius: 8px;
+        font-size: 0.875rem;
+    }
+    .pricing {
+        gap: 50px;
+    }
 }
