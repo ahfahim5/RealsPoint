@@ -450,7 +450,6 @@
 .footer-social-icon{
     padding-top: 20px;
 }
-
 .copyright {
     text-align: left;
     color: #333;
@@ -458,7 +457,6 @@
     margin-top: 20px;
     padding-top: 20px;
 }
-
 .copyright p {
     margin: 0;
 }
@@ -502,6 +500,15 @@
         text-align: center;
         color: black;
         font-size: 16px;
+    }
+    .nav-links ul ul {
+        display: none;
+        position: absolute;
+        background-color: #33b835;
+        border: 1px solid #33B836;
+        padding: 5px;
+        border-radius: 10px;
+        z-index: 1;
     }
 
     .nav-links a:hover {
