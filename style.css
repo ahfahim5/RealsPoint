@@ -544,9 +544,11 @@
         margin: 10px;
         border-radius: 10px !important;
     }
+
     .form-control {
         margin: 0;
     }
+
     .banner-1-items {
         padding: 20px;
         padding-top: 40px;
@@ -580,13 +582,15 @@
         overflow: hidden;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
- 
+
     .card-wrapper {
         margin: 0 10px 25px;
     }
+
     .card-wrapper .swiper-slide-button {
         display: none;
     }
+
     .fa-card-texts {
         background-color: #f2f2f2;
         width: 300px;
@@ -594,6 +598,7 @@
         margin: 0 25px 0 25px;
         border-radius: 0 0 10px 10px;
     }
+
     .item-img img {
         width: 300px;
         height: 100%;
@@ -601,6 +606,7 @@
         object-fit: cover;
         border-radius: 10px 10px 0 0;
     }
+
     .heart-icon {
         position: absolute;
         margin-top: -49px;
@@ -610,6 +616,7 @@
         cursor: pointer;
         transition: all 0.3s ease;
     }
+
     .rent-btn {
         background: #f6e6ca;
         color: #b4911c;
@@ -618,6 +625,7 @@
         display: inline;
         border-radius: 6px;
     }
+
     .sell-btn {
         background: #d3dcfb;
         color: #6476d3;
@@ -626,6 +634,7 @@
         display: inline;
         border-radius: 6px;
     }
+
     .type-tag {
         position: absolute;
         background-color: #4CAF50;
@@ -636,6 +645,7 @@
         border-radius: 8px;
         font-size: 0.875rem;
     }
+
     .pricing {
         gap: 50px;
     }
